@@ -10,7 +10,7 @@
 # Build results
 .vs/
 bin/
-obj/
+obj/Debug/net9.0/
 properties/
 [Dd]ebug/
 [Dd]ebugPublic/
