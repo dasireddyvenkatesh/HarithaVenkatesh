@@ -9,10 +9,17 @@
 
 # Build results
 .vs/
+# Ignore all obj and bin folders
 bin/
-HarithaVenkatesh\obj\Debug\net9.0
-obj\
-properties/
+obj/
+
+# Optionally, ignore other build directories
+obj/Debug/
+obj/Release/
+
+# Ignore specific version folders under obj/Debug/ (e.g., net9.0, net5.0, etc.)
+obj/Debug/net*/   # This will ignore any "netX.X" folder under Debug
+
 [Dd]ebug/
 [Dd]ebugPublic/
 [Rr]elease/
