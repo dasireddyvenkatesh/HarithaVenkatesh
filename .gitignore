@@ -9,6 +9,9 @@
 
 # Build results
 .vs/
+bin/
+obj/
+properties/
 [Dd]ebug/
 [Dd]ebugPublic/
 [Rr]elease/
