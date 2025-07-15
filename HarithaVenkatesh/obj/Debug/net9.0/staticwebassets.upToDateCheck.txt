@@ -1,0 +1,8 @@
+wwwroot\Css\animate.min.css
+wwwroot\Css\home.css
+wwwroot\Css\responsive.css
+wwwroot\favicon.png
+wwwroot\Images\image.png
+C:\Users\DasireddyVenkatesh\source\repos\HarithaVenkatesh\HarithaVenkatesh\wwwroot\Css\responsive.css
+C:\Users\DasireddyVenkatesh\source\repos\HarithaVenkatesh\HarithaVenkatesh\wwwroot\Css\home.css
+C:\Users\DasireddyVenkatesh\source\repos\HarithaVenkatesh\HarithaVenkatesh\wwwroot\Css\animate.min.css

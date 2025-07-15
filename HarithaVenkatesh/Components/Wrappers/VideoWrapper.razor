@@ -1,0 +1,18 @@
+﻿<MudPaper Class="d-flex justify-center" Style="width: 100%; margin: auto;">
+    <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; width: 100%;">
+        <iframe src="@VideoLink"
+                title="@Title"
+                style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+        </iframe>
+    </div>
+</MudPaper>
+
+@code{
+    [Parameter]
+    public string VideoLink { get; set; } = string.Empty;
+    [Parameter]
+    public string Title { get; set; } = string.Empty;
+}

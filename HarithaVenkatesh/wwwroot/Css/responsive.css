@@ -1,0 +1,33 @@
+﻿.desktop-img {
+    display: block;
+}
+
+.tablet-img {
+    display: none;
+}
+
+.mobile-img {
+    display: none;
+}
+
+/* Tablets */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .desktop-img {
+        display: none;
+    }
+
+    .tablet-img {
+        display: block;
+    }
+}
+
+/* Mobiles */
+@media (max-width: 768px) {
+    .desktop-img {
+        display: none;
+    }
+
+    .mobile-img {
+        display: block;
+    }
+}

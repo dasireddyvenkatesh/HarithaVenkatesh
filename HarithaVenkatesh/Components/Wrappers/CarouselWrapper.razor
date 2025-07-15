@@ -1,0 +1,43 @@
+﻿<link rel="stylesheet" href="Css/animate.min.css" />
+<link rel="stylesheet" href="Css/home.css" />
+<link rel="stylesheet" href="Css/responsive.css" />
+
+<MudCarousel Class="mud-width-full" Style="height:500px;" AutoCycleTime="TimeSpan.FromSeconds(100)" TData="object" AutoCycle="true" ShowBullets="false" ShowArrows="true">
+    <MudCarouselItem Color="@Color.Primary" Transition="Transition.Slide">
+        <div class="d-flex" style="height:100%">
+            <MudImage Class="mx-auto my-auto desktop-img" Src="@desktopImage_1" />
+            <MudImage Class="mx-auto my-auto tablet-img" Src="@tabletImage_1" />
+            <MudImage Class="mx-auto my-auto mobile-img" Src="@mobileImage_1" />
+        </div>
+    </MudCarouselItem>
+    <MudCarouselItem Color="@Color.Secondary" Transition="Transition.Fade">
+        <div class="d-flex" style="height:100%">
+            <MudIcon Class="mx-auto my-auto" Icon="@Icons.Custom.Brands.MudBlazor" Size="@Size.Large" />
+        </div>
+    </MudCarouselItem>
+    <MudCarouselItem Color="@Color.Tertiary" Transition="Transition.Custom" CustomTransitionEnter="bounceIn" CustomTransitionExit="bounceOut">
+        <div class="d-flex" style="height:100%">
+            <MudIcon Class="mx-auto my-auto" Icon="@Icons.Custom.Brands.MudBlazor" Size="@Size.Large" />
+        </div>
+    </MudCarouselItem>
+    <MudCarouselItem Transition="Transition.Custom" CustomTransitionEnter="backInDown" CustomTransitionExit="backOutDown">
+        <div class="d-flex" style="background-color:lightgray; height:100%">
+            <MudIcon Class="mx-auto my-auto" Icon="@Icons.Custom.Brands.MudBlazor" Color="@Color.Primary" Size="@Size.Large" />
+        </div>
+    </MudCarouselItem>
+    <MudCarouselItem Transition="Transition.Custom" CustomTransitionEnter="rotateIn" CustomTransitionExit="rotateOut">
+        <div class="d-flex" style="background-color:lightgray; height:100%">
+            <MudIcon Class="mx-auto my-auto" Icon="@Icons.Custom.Brands.MudBlazor" Color="@Color.Secondary" Size="@Size.Large" />
+        </div>
+    </MudCarouselItem>
+</MudCarousel>
+
+@code{
+    [Parameter]
+    public string desktopImage_1 { get; set; } = string.Empty;
+    [Parameter]
+    public string tabletImage_1 { get; set; } = string.Empty;
+    [Parameter]
+    public string mobileImage_1 { get; set; } = string.Empty;
+
+}

@@ -1,0 +1,185 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\DasireddyVenkatesh\\source\\repos\\HarithaVenkatesh\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DFFFEB12-71A0-4725-B457-9A3A44D1FAED}|HarithaVenkatesh\\HarithaVenkatesh.csproj|c:\\users\\dasireddyvenkatesh\\source\\repos\\harithavenkatesh\\harithavenkatesh\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DFFFEB12-71A0-4725-B457-9A3A44D1FAED}|HarithaVenkatesh\\HarithaVenkatesh.csproj|solutionrelative:harithavenkatesh\\components\\pages\\home.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFFFEB12-71A0-4725-B457-9A3A44D1FAED}|HarithaVenkatesh\\HarithaVenkatesh.csproj|c:\\users\\dasireddyvenkatesh\\source\\repos\\harithavenkatesh\\harithavenkatesh\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DFFFEB12-71A0-4725-B457-9A3A44D1FAED}|HarithaVenkatesh\\HarithaVenkatesh.csproj|solutionrelative:harithavenkatesh\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFFFEB12-71A0-4725-B457-9A3A44D1FAED}|HarithaVenkatesh\\HarithaVenkatesh.csproj|c:\\users\\dasireddyvenkatesh\\source\\repos\\harithavenkatesh\\harithavenkatesh\\wwwroot\\css\\responsive.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{DFFFEB12-71A0-4725-B457-9A3A44D1FAED}|HarithaVenkatesh\\HarithaVenkatesh.csproj|solutionrelative:harithavenkatesh\\wwwroot\\css\\responsive.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFFFEB12-71A0-4725-B457-9A3A44D1FAED}|HarithaVenkatesh\\HarithaVenkatesh.csproj|c:\\users\\dasireddyvenkatesh\\source\\repos\\harithavenkatesh\\harithavenkatesh\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DFFFEB12-71A0-4725-B457-9A3A44D1FAED}|HarithaVenkatesh\\HarithaVenkatesh.csproj|solutionrelative:harithavenkatesh\\components\\layout\\mainlayout.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFFFEB12-71A0-4725-B457-9A3A44D1FAED}|HarithaVenkatesh\\HarithaVenkatesh.csproj|c:\\users\\dasireddyvenkatesh\\source\\repos\\harithavenkatesh\\harithavenkatesh\\components\\wrappers\\carouselwrapper.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DFFFEB12-71A0-4725-B457-9A3A44D1FAED}|HarithaVenkatesh\\HarithaVenkatesh.csproj|solutionrelative:harithavenkatesh\\components\\wrappers\\carouselwrapper.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFFFEB12-71A0-4725-B457-9A3A44D1FAED}|HarithaVenkatesh\\HarithaVenkatesh.csproj|c:\\users\\dasireddyvenkatesh\\source\\repos\\harithavenkatesh\\harithavenkatesh\\components\\wrappers\\videowrapper.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DFFFEB12-71A0-4725-B457-9A3A44D1FAED}|HarithaVenkatesh\\HarithaVenkatesh.csproj|solutionrelative:harithavenkatesh\\components\\wrappers\\videowrapper.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFFFEB12-71A0-4725-B457-9A3A44D1FAED}|HarithaVenkatesh\\HarithaVenkatesh.csproj|c:\\users\\dasireddyvenkatesh\\source\\repos\\harithavenkatesh\\harithavenkatesh\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DFFFEB12-71A0-4725-B457-9A3A44D1FAED}|HarithaVenkatesh\\HarithaVenkatesh.csproj|solutionrelative:harithavenkatesh\\components\\_imports.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFFFEB12-71A0-4725-B457-9A3A44D1FAED}|HarithaVenkatesh\\HarithaVenkatesh.csproj|c:\\users\\dasireddyvenkatesh\\source\\repos\\harithavenkatesh\\harithavenkatesh\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DFFFEB12-71A0-4725-B457-9A3A44D1FAED}|HarithaVenkatesh\\HarithaVenkatesh.csproj|solutionrelative:harithavenkatesh\\components\\app.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFFFEB12-71A0-4725-B457-9A3A44D1FAED}|HarithaVenkatesh\\HarithaVenkatesh.csproj|c:\\users\\dasireddyvenkatesh\\source\\repos\\harithavenkatesh\\harithavenkatesh\\components\\routes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DFFFEB12-71A0-4725-B457-9A3A44D1FAED}|HarithaVenkatesh\\HarithaVenkatesh.csproj|solutionrelative:harithavenkatesh\\components\\routes.razor||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DFFFEB12-71A0-4725-B457-9A3A44D1FAED}|HarithaVenkatesh\\HarithaVenkatesh.csproj|c:\\users\\dasireddyvenkatesh\\source\\repos\\harithavenkatesh\\harithavenkatesh\\wwwroot\\css\\home.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{DFFFEB12-71A0-4725-B457-9A3A44D1FAED}|HarithaVenkatesh\\HarithaVenkatesh.csproj|solutionrelative:harithavenkatesh\\wwwroot\\css\\home.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "VideoWrapper.razor",
+              "DocumentMoniker": "C:\\Users\\DasireddyVenkatesh\\source\\repos\\HarithaVenkatesh\\HarithaVenkatesh\\Components\\Wrappers\\VideoWrapper.razor",
+              "RelativeDocumentMoniker": "HarithaVenkatesh\\Components\\Wrappers\\VideoWrapper.razor",
+              "ToolTip": "C:\\Users\\DasireddyVenkatesh\\source\\repos\\HarithaVenkatesh\\HarithaVenkatesh\\Components\\Wrappers\\VideoWrapper.razor",
+              "RelativeToolTip": "HarithaVenkatesh\\Components\\Wrappers\\VideoWrapper.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-15T09:46:15.836Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CarouselWrapper.razor",
+              "DocumentMoniker": "C:\\Users\\DasireddyVenkatesh\\source\\repos\\HarithaVenkatesh\\HarithaVenkatesh\\Components\\Wrappers\\CarouselWrapper.razor",
+              "RelativeDocumentMoniker": "HarithaVenkatesh\\Components\\Wrappers\\CarouselWrapper.razor",
+              "ToolTip": "C:\\Users\\DasireddyVenkatesh\\source\\repos\\HarithaVenkatesh\\HarithaVenkatesh\\Components\\Wrappers\\CarouselWrapper.razor",
+              "RelativeToolTip": "HarithaVenkatesh\\Components\\Wrappers\\CarouselWrapper.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-10T06:55:24.428Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "home.css",
+              "DocumentMoniker": "C:\\Users\\DasireddyVenkatesh\\source\\repos\\HarithaVenkatesh\\HarithaVenkatesh\\wwwroot\\Css\\home.css",
+              "RelativeDocumentMoniker": "HarithaVenkatesh\\wwwroot\\Css\\home.css",
+              "ToolTip": "C:\\Users\\DasireddyVenkatesh\\source\\repos\\HarithaVenkatesh\\HarithaVenkatesh\\wwwroot\\Css\\home.css",
+              "RelativeToolTip": "HarithaVenkatesh\\wwwroot\\Css\\home.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-07-10T06:03:53.897Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "MainLayout.razor",
+              "DocumentMoniker": "C:\\Users\\DasireddyVenkatesh\\source\\repos\\HarithaVenkatesh\\HarithaVenkatesh\\Components\\Layout\\MainLayout.razor",
+              "RelativeDocumentMoniker": "HarithaVenkatesh\\Components\\Layout\\MainLayout.razor",
+              "ToolTip": "C:\\Users\\DasireddyVenkatesh\\source\\repos\\HarithaVenkatesh\\HarithaVenkatesh\\Components\\Layout\\MainLayout.razor",
+              "RelativeToolTip": "HarithaVenkatesh\\Components\\Layout\\MainLayout.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-10T05:49:18.131Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "responsive.css",
+              "DocumentMoniker": "C:\\Users\\DasireddyVenkatesh\\source\\repos\\HarithaVenkatesh\\HarithaVenkatesh\\wwwroot\\Css\\responsive.css",
+              "RelativeDocumentMoniker": "HarithaVenkatesh\\wwwroot\\Css\\responsive.css",
+              "ToolTip": "C:\\Users\\DasireddyVenkatesh\\source\\repos\\HarithaVenkatesh\\HarithaVenkatesh\\wwwroot\\Css\\responsive.css",
+              "RelativeToolTip": "HarithaVenkatesh\\wwwroot\\Css\\responsive.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-07-10T06:09:56.295Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Home.razor",
+              "DocumentMoniker": "C:\\Users\\DasireddyVenkatesh\\source\\repos\\HarithaVenkatesh\\HarithaVenkatesh\\Components\\Pages\\Home.razor",
+              "RelativeDocumentMoniker": "HarithaVenkatesh\\Components\\Pages\\Home.razor",
+              "ToolTip": "C:\\Users\\DasireddyVenkatesh\\source\\repos\\HarithaVenkatesh\\HarithaVenkatesh\\Components\\Pages\\Home.razor",
+              "RelativeToolTip": "HarithaVenkatesh\\Components\\Pages\\Home.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-10T05:48:58.531Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_Imports.razor",
+              "DocumentMoniker": "C:\\Users\\DasireddyVenkatesh\\source\\repos\\HarithaVenkatesh\\HarithaVenkatesh\\Components\\_Imports.razor",
+              "RelativeDocumentMoniker": "HarithaVenkatesh\\Components\\_Imports.razor",
+              "ToolTip": "C:\\Users\\DasireddyVenkatesh\\source\\repos\\HarithaVenkatesh\\HarithaVenkatesh\\Components\\_Imports.razor",
+              "RelativeToolTip": "HarithaVenkatesh\\Components\\_Imports.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-10T05:48:29.247Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "App.razor",
+              "DocumentMoniker": "C:\\Users\\DasireddyVenkatesh\\source\\repos\\HarithaVenkatesh\\HarithaVenkatesh\\Components\\App.razor",
+              "RelativeDocumentMoniker": "HarithaVenkatesh\\Components\\App.razor",
+              "ToolTip": "C:\\Users\\DasireddyVenkatesh\\source\\repos\\HarithaVenkatesh\\HarithaVenkatesh\\Components\\App.razor",
+              "RelativeToolTip": "HarithaVenkatesh\\Components\\App.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-10T05:46:11.014Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Routes.razor",
+              "DocumentMoniker": "C:\\Users\\DasireddyVenkatesh\\source\\repos\\HarithaVenkatesh\\HarithaVenkatesh\\Components\\Routes.razor",
+              "RelativeDocumentMoniker": "HarithaVenkatesh\\Components\\Routes.razor",
+              "ToolTip": "C:\\Users\\DasireddyVenkatesh\\source\\repos\\HarithaVenkatesh\\HarithaVenkatesh\\Components\\Routes.razor",
+              "RelativeToolTip": "HarithaVenkatesh\\Components\\Routes.razor",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-10T05:46:02.518Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\DasireddyVenkatesh\\source\\repos\\HarithaVenkatesh\\HarithaVenkatesh\\Program.cs",
+              "RelativeDocumentMoniker": "HarithaVenkatesh\\Program.cs",
+              "ToolTip": "C:\\Users\\DasireddyVenkatesh\\source\\repos\\HarithaVenkatesh\\HarithaVenkatesh\\Program.cs",
+              "RelativeToolTip": "HarithaVenkatesh\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-10T05:43:48.323Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
