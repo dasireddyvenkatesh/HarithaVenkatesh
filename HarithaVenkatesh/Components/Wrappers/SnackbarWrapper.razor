@@ -1,0 +1,36 @@
+﻿@inject ISnackbar Snackbar
+
+<style>
+    .custom-snackbar{
+        border-radius:50px;
+    }
+</style>
+
+@code {
+    [Parameter] public string Message { get; set; } = string.Empty;
+    [Parameter] public string ImagePath { get; set; } = string.Empty;
+
+    private bool _hasShown = false;
+
+    protected override void OnParametersSet()
+    {
+        if (!_hasShown && !string.IsNullOrWhiteSpace(Message))
+        {
+            Snackbar.Configuration.PositionClass = Defaults.Classes.Position.TopCenter;
+            Snackbar.Configuration.VisibleStateDuration = 2000;
+            Snackbar.Configuration.ShowCloseIcon = false;
+            Snackbar.Configuration.SnackbarVariant = Variant.Outlined;
+            var html = (MarkupString)$@"
+                        <div style='display: flex; align-items: center; justify-content: center;'>
+                        <img src='{ImagePath}' style='width:32px; height:32px; border-radius:50%; margin-right:8px;' />
+                        <span>{Message}</span>
+                        </div>";
+            Snackbar.Add(html, Severity.Success, configure =>
+            {
+                configure.HideIcon = true;
+                configure.SnackbarTypeClass = "custom-snackbar";
+            });
+            _hasShown = true;
+        }
+    }
+}

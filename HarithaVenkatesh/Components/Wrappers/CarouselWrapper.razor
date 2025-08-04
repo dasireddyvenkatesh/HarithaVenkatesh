@@ -2,11 +2,11 @@
 <link rel="stylesheet" href="Css/home.css" />
 <link rel="stylesheet" href="Css/responsive.css" />
 
-<MudCarousel Class="mud-width-full" Style="height:500px;" AutoCycleTime="TimeSpan.FromSeconds(100)" TData="object" AutoCycle="true" ShowBullets="false" ShowArrows="true">
+<MudCarousel Class="mud-width-full" Style="height:500px;border-radius:16px" AutoCycleTime="TimeSpan.FromSeconds(500)" TData="object" AutoCycle="true" ShowBullets="false" ShowArrows="true">
     <MudCarouselItem Color="@Color.Primary" Transition="Transition.Slide">
         <div class="d-flex" style="height:100%">
-            <MudImage Class="mx-auto my-auto desktop-img" Src="@desktopImage_1" />
-            <MudImage Class="mx-auto my-auto tablet-img" Src="@tabletImage_1" />
+            <MudImage Class="mx-auto my-auto desktop-img" Alt="Desktop_Image" Src="@desktopImage_1" />
+            <MudImage Class="mx-auto my-auto tablet-img" Alt="Tablet_Image" Src="@tabletImage_1" />
             <MudImage Class="mx-auto my-auto mobile-img" Src="@mobileImage_1" />
         </div>
     </MudCarouselItem>

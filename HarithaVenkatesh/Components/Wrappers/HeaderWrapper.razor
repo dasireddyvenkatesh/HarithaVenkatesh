@@ -1,0 +1,15 @@
+﻿<link rel="stylesheet" href="Css/HeaderWrapper.css" />
+<MudPaper Class="wedding-bar d-flex align-center justify-center flex-column px-8 py-6 mx-auto"
+          Style="border-radius: 16px; box-shadow: 0 10px 30px rgba(255, 105, 180, 0.3);">
+
+    <div class="icon-text-row d-flex align-center mb-2">
+        <MudIcon Icon="@Icons.Material.Filled.Favorite" Size="Size.Large" Class="heart-icon" />
+        <MudText Typo="Typo.h3" Class="wedding-names ml-3">
+            @HeaderText
+        </MudText>
+    </div>
+</MudPaper>
+
+@code{
+    [Parameter] public string HeaderText { get; set; } = string.Empty;
+}
