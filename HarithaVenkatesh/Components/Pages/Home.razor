@@ -1,5 +1,6 @@
 ﻿@page "/"
 @using HarithaVenkatesh.Components.Wrappers
+@inject IConfiguration Configuration
 
 <PageTitle>Home</PageTitle>
 
@@ -18,7 +19,7 @@
         💍 Below you can watch the live video of the wedding ceremony 💕
     </MudText>
 </MudPaper>
-<VideoWrapper Title="VenkatesHarithaWedding" VideoLink="https://www.youtube.com/embed/qkyT2I4-L6g" />
+<VideoWrapper Title="VenkatesHarithaWedding" VideoLink="@Configuration.GetSection("youtubelink").Value" />
 
 <SnackbarWrapper ImagePath="images/Wedding_SnackBar.png" message="Welcome! We're glad you're here."></SnackbarWrapper>
 
