@@ -37,9 +37,14 @@ else
 @code {
     private bool IsLoading { get; set; } = true;
 
-    protected override async Task OnInitializedAsync()
+    protected override async Task OnAfterRenderAsync(bool firstRender)
     {
-        await Task.Delay(2000);
-        IsLoading = false;
+        if (firstRender)
+        {
+            await Task.Delay(2000);
+
+            IsLoading = false;
+            StateHasChanged();
+        }
     }
 }
