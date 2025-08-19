@@ -2,7 +2,7 @@
 {
     <MudGrid Spacing="2" Class="mb-2">
         <MudItem xs="12">
-            <MudSkeleton SkeletonType="SkeletonType.Rectangle" Animation="Animation.Wave" Width="@SkeletonWidth" Height="@SkeletonHeight" />
+            <MudSkeleton SkeletonType="SkeletonType.Rectangle" Animation="Animation.Wave" Width="@SkeletonWidth" Height="@SkeletonHeight" Style="@Styles" />
         </MudItem>
     </MudGrid>
 }
@@ -12,7 +12,7 @@ else if (LayoutType == 6)
         @for (int i = 0; i < 2; i++)
         {
             <MudItem xs="12" sm="6">
-                <MudSkeleton SkeletonType="SkeletonType.Rectangle" Animation="Animation.Wave" Width="@SkeletonWidth" Height="@SkeletonHeight" />
+                <MudSkeleton SkeletonType="SkeletonType.Rectangle" Animation="Animation.Wave" Width="@SkeletonWidth" Height="@SkeletonHeight" Style="@Styles" />
             </MudItem>
         }
     </MudGrid>
@@ -23,7 +23,7 @@ else if (LayoutType == 4)
         @for (int i = 0; i < 3; i++)
         {
             <MudItem xs="12" sm="4">
-                <MudSkeleton SkeletonType="SkeletonType.Rectangle" Animation="Animation.Wave" Width="@SkeletonWidth" Height="@SkeletonHeight" />
+                <MudSkeleton SkeletonType="SkeletonType.Rectangle" Animation="Animation.Wave" Width="@SkeletonWidth" Height="@SkeletonHeight" Style="@Styles" />
             </MudItem>
         }
     </MudGrid>
@@ -34,27 +34,45 @@ else if (LayoutType == 3)
         @for (int i = 0; i < 4; i++)
         {
             <MudItem xs="12" sm="3">
-                <MudSkeleton SkeletonType="SkeletonType.Rectangle" Animation="Animation.Wave" Width="@SkeletonWidth" Height="@SkeletonHeight" />
+                <MudSkeleton SkeletonType="SkeletonType.Rectangle" Animation="Animation.Wave" Width="@SkeletonWidth" Height="@SkeletonHeight" Style="@Styles" />
             </MudItem>
         }
     </MudGrid>
 }
+else if (LayoutType == 1)
+{
 
-
-<MudGrid Spacing="2">
-    <MudItem>
-        <MudSkeleton SkeletonType="SkeletonType.Circle" Animation="Animation.Wave" Height="60px" Width="60px" />
-    </MudItem>
-    <MudItem Style="flex-grow: 1;">
-        <MudSkeleton Animation="Animation.Wave" Width="40%" />
-        <MudSkeleton Animation="Animation.Wave" Width="60%" />
-        <MudSkeleton Animation="Animation.Wave" Width="60%" />
-    </MudItem>
-</MudGrid>
-
+    if (CircleLayout == 2)
+    {
+        <MudGrid Spacing="2" Class="mb-2">
+            <MudItem>
+                <MudSkeleton SkeletonType="SkeletonType.Circle" Animation="Animation.Wave" Height="50px" Width="50px" Style="@Styles" />
+            </MudItem>
+            <MudItem Style="flex-grow: 1;">
+                <MudSkeleton Animation="Animation.Wave" Width="20%" />
+                <MudSkeleton Animation="Animation.Wave" Width="80%" />
+            </MudItem>
+        </MudGrid>
+    }
+    else if (CircleLayout == 3)
+    {
+        <MudGrid Spacing="2" Class="mb-2">
+            <MudItem>
+                <MudSkeleton SkeletonType="SkeletonType.Circle" Animation="Animation.Wave" Height="60px" Width="60px" Style="@Styles" />
+            </MudItem>
+            <MudItem Style="flex-grow: 1;">
+                <MudSkeleton Animation="Animation.Wave" Width="40%" />
+                <MudSkeleton Animation="Animation.Wave" Width="60%" />
+                <MudSkeleton Animation="Animation.Wave" Width="60%" />
+            </MudItem>
+        </MudGrid>
+    }
+}
 
 @code {
     [Parameter] public int LayoutType { get; set; } = 12;
     [Parameter] public string SkeletonHeight { get; set; } = "250px";
     [Parameter] public string SkeletonWidth { get; set; } = "100%";
+    [Parameter] public string Styles { get; set; } = "border-radius:16px";
+    [Parameter] public int CircleLayout { get; set; } = 2;
 }

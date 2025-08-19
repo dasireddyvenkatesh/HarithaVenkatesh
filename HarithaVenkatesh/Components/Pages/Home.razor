@@ -4,70 +4,43 @@
 
 <PageTitle>Home</PageTitle>
 
+@if (IsLoading)
+{
+    <SkeletonWrapper SkeletonHeight="120px" />
+    <SkeletonWrapper SkeletonHeight="500px" />
+    <SkeletonWrapper SkeletonHeight="100px" />
+    <SkeletonWrapper LayoutType="1" Styles="margin-left:25px" />
+    <SkeletonWrapper LayoutType="1" Styles="margin-left:25px" />
+    <SkeletonWrapper LayoutType="1" Styles="margin-left:25px" />
+    <HeaderWrapper HeaderText="Venkatesh &amp; Haritha" />
+}
+else
+{
+    <HeaderWrapper HeaderText="Venkatesh &amp; Haritha" />
+    <CarouselWrapper desktopImage_1="images/desktopimg_1.jpg" tabletImage_1="images/desktopimg_1.jpg" />
+    <MudPaper Elevation="4" Class="pa-6 mud-width-full d-flex justify-center align-center"
+              Style="
+                    background: linear-gradient(90deg, #fff0f5, #fce4ec);
+                    border-left: 6px solid #e91e63;
+                    border-radius: 16px;
+                  ">
+        <MudText Typo="Typo.h6" Color="Color.Secondary" Align="Align.Center">
+            💍 Below you can watch the live video of the wedding ceremony 💕
+        </MudText>
+    </MudPaper>
+    <VideoWrapper Title="VenkatesHarithaWedding" VideoLink="@Configuration.GetSection("youtubelink").Value" />
 
-@* <SkeletonWrapper/> *@
+    <SnackbarWrapper ImagePath="images/Wedding_SnackBar.png" message="Welcome! We're glad you're here."></SnackbarWrapper>
 
-<HeaderWrapper HeaderText="Venkatesh &amp; Haritha" />
-<CarouselWrapper desktopImage_1="images/desktopimg_1.jpg" tabletImage_1="images/desktopimg_1.jpg" />
-<MudPaper Elevation="4" Class="pa-6 mud-width-full d-flex justify-center align-center"
-          Style="
-                background: linear-gradient(90deg, #fff0f5, #fce4ec);
-                border-left: 6px solid #e91e63;
-                border-radius: 16px;
-              ">
-    <MudText Typo="Typo.h6" Color="Color.Secondary" Align="Align.Center">
-        💍 Below you can watch the live video of the wedding ceremony 💕
-    </MudText>
-</MudPaper>
-<VideoWrapper Title="VenkatesHarithaWedding" VideoLink="@Configuration.GetSection("youtubelink").Value" />
-
-<SnackbarWrapper ImagePath="images/Wedding_SnackBar.png" message="Welcome! We're glad you're here."></SnackbarWrapper>
-
-<TimelineWrapper/>
-
-@* <MudDataGrid Items="@Elements" Filterable="true" FilterMode="@_filterMode" FilterCaseSensitivity="@_caseSensitivity" ShowMenuIcon="true" Hideable="true">
-    <Columns>
-        <PropertyColumn Property="x => x.Number" Title="Nr" Filterable="false" />
-        <PropertyColumn Property="x => x.Sign" />
-        <PropertyColumn Property="x => x.Name" />
-        <PropertyColumn Property="x => x.Position" /> 
-        <PropertyColumn Property="x => x.Molar" Title="Molar mass" />
-        <PropertyColumn Property="x => x.Group" Title="Category" />
-    </Columns>
-    <PagerContent>
-        <MudDataGridPager T="Element" />
-    </PagerContent>
-</MudDataGrid>
+    <TimelineWrapper />
+}
 
 @code {
-    private IEnumerable<Element> Elements = new List<Element>();
-    private DataGridFilterMode _filterMode = DataGridFilterMode.Simple;
-    private DataGridFilterCaseSensitivity _caseSensitivity = DataGridFilterCaseSensitivity.Default;
+    private bool IsLoading { get; set; } = true;
 
-    public class Element
+    protected override async Task OnInitializedAsync()
     {
-        public int Number { get; set; }
-        public string Sign { get; set; } = string.Empty;
-        public string Name { get; set; } = string.Empty;
-        public int Position { get; set; }
-        public double Molar { get; set; }
-        public string Group { get; set; } = string.Empty;
+        await Task.Delay(2000);
+        IsLoading = false;
     }
-
-    protected override void OnInitialized()
-    {
-        Elements = new[]
-        {
-            new Element { Group = "Nonmetal", Position = 0, Name = "Hydrogen", Number = 1, Sign = "H", Molar = 1.008 },
-            new Element { Group = "Noble gas", Position = 17, Name = "Helium", Number = 2, Sign = "He", Molar = 4.0026 },
-            new Element { Group = "Alkali metal", Position = 0, Name = "Lithium", Number = 3, Sign = "Li", Molar = 6.94 },
-            new Element { Group = "Alkaline earth metal", Position = 1, Name = "Beryllium", Number = 4, Sign = "Be", Molar = 9.0122 },
-            new Element { Group = "Metalloid", Position = 13, Name = "Boron", Number = 5, Sign = "B", Molar = 10.81 },
-            new Element { Group = "Nonmetal", Position = 14, Name = "Carbon", Number = 6, Sign = "C", Molar = 12.011 },
-            new Element { Group = "Nonmetal", Position = 15, Name = "Nitrogen", Number = 7, Sign = "N", Molar = 14.007 },
-            new Element { Group = "Nonmetal", Position = 16, Name = "Oxygen", Number = 8, Sign = "O", Molar = 15.999 },
-            new Element { Group = "Halogen", Position = 17, Name = "Fluorine", Number = 9, Sign = "F", Molar = 18.998 },
-            new Element { Group = "Noble gas", Position = 18, Name = "Neon", Number = 10, Sign = "Ne", Molar = 20.180 }
-        };
-    }
-} *@
+}
